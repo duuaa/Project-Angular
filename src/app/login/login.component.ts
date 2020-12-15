@@ -9,7 +9,7 @@ export class LoginComponent implements OnInit {
 
   user= {
     username:'',
-    passwor:'',
+    password:'',
     remember: false
   }
   constructor(public dialogRef :MatDialogRef<LoginComponent>) { }
